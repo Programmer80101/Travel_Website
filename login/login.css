@@ -313,8 +313,22 @@ input {
   transition: 0.3s ease-in-out;
 }
 
-.social-container a:hover {
-  border: 1px solid #4bb6b7;
+.social-container a[href="www.facebook.com"]:hover {
+  color: #ffffff;
+  background: #1877F2;
+  border: 1px solid #1877F2;
+}
+
+.social-container a[href="www.google.com"]:hover {
+  color: #ffffff;
+  background: #34A853;
+  border: 1px solid #34A853;
+}
+
+.social-container a[href="www.linkedin.com"]:hover {
+  color: #ffffff;
+  background: #0077B5;
+  border: 1px solid #0077B5;
 }
 
 #login-section{
